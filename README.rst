@@ -4,15 +4,26 @@ codebackup
 A simple command line tool to backup all of your Github and Bitbucket
 repositories to the specified directory.
 
+Installing
+----------
+
+Use one of the following commands (the later works in ActivePython)::
+
+    $ sudo pip install codebackup
+    
+    $ pypm install codebackup
+
 Usage
 -----
 
-    $ codebackup --github-user=srid --bitbucket-user=srid ~/backups/code
+::
+
+    $ codebackup --github-user=srid --bitbucket-user=srid ~/Dropbox/codebackup
 
 Credits
 -------
 
-- `github-simple-backup`, original inspiration
+- `github-simple-backup`_, original inspiration
 - `Distribute`_
 - `Buildout`_
 - `modern-package-template`_
