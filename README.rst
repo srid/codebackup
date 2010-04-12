@@ -7,7 +7,7 @@ repositories to the specified directory.
 Usage
 -----
 
-    $ codeback --github=srid --bitbucket=srid ~/backups/code
+    $ codebackup --github-user=srid --bitbucket-user=srid ~/backups/code
 
 Credits
 -------
