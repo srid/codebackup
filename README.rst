@@ -1,23 +1,23 @@
-This file requires editing
-==========================
+codebackup
+==========
 
-Note to the author: Please add something informative to this README *before*
-releasing your software, as `a little documentation goes a long way`_.  Both
-README.rst (this file) and NEWS.txt (release notes) will be included in your
-package metadata which gets displayed in the PyPI page for your project.
+A simple command line tool to backup all of your Github and Bitbucket
+repositories to the specified directory.
 
-You can take a look at the README.txt of other projects, such as repoze.bfg
-(http://bfg.repoze.org/trac/browser/trunk/README.txt) for some ideas.
+Usage
+-----
 
-.. _`a little documentation goes a long way`: http://www.martinaspeli.net/articles/a-little-documentation-goes-a-long-way
+    $ codeback --github=srid --bitbucket=srid ~/backups/code
 
 Credits
 -------
 
+- `github-simple-backup`, original inspiration
 - `Distribute`_
 - `Buildout`_
 - `modern-package-template`_
 
+.. _`github-simple-backup`: http://github.com/jbalogh/github-simple-backup
 .. _Buildout: http://www.buildout.org/
 .. _Distribute: http://pypi.python.org/pypi/distribute
 .. _`modern-package-template`: http://pypi.python.org/pypi/modern-package-template

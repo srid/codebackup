@@ -12,6 +12,7 @@ install_requires = [
     # List your project dependencies here.
     # For more details, see:
     # http://packages.python.org/distribute/setuptools.html#declaring-dependencies
+    'argparse',
 ]
 
 
@@ -25,7 +26,7 @@ setup(name='codebackup',
     keywords='github bitbucket backup mercurial git',
     author='Sridhar Ratnakumar',
     author_email='sridhar.ratna@gmail.com',
-    url='',
+    url='http://github.com/srid/codebackup',
     license='MIT',
     packages=find_packages('src'),
     package_dir = {'': 'src'},include_package_data=True,
